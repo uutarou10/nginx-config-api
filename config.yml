@@ -1,0 +1,7 @@
+nginx:
+  production:
+    - conf_dir: "/etc/nginx/conf.d/"
+    - conf_name: "k8s.conf"
+  develop:
+    - conf_dir: "."
+    - conf_name: "test.conf"
